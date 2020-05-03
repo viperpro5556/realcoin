@@ -1,0 +1,9 @@
+Building Realcoin
+
+See doc/readme-qt.rst for instructions on building Realcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Realcoin.
+
+See doc/build-*.txt for instructions on building realcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Realcoin.

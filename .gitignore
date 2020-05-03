@@ -1,0 +1,34 @@
+src/*.exe
+src/realcoin
+src/realcoind
+src/test_realcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.realcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+realcoin-qt
+Realcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+realcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
